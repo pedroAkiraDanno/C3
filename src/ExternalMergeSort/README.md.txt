@@ -1,1 +1,0 @@
-REFERENCE: https://github.com/Zinurist/ExternalMergeSort/fork
