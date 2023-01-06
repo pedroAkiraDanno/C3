@@ -25,7 +25,7 @@
 
 
    		 make
-   		 ./mycreatelargefile
+   		 ./mergesort
 
 
 
