@@ -1,6 +1,7 @@
 STEPS by STEPS on Linux Environment (completed)
 		sudo su -
 		sudo apt-get install gcc -y
+		sudo apt install make
 
 		cd ~
 		rm -fr C2/
