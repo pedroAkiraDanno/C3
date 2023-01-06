@@ -9,8 +9,8 @@ STEPS by STEPS on Linux Environment (completed)
 		cd C2/src/ExternalMergeSort/
 
 
-    make
-    ./mycreatelargefile
+   		 make
+   		 ./mycreatelargefile
 
 
 
