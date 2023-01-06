@@ -18,10 +18,10 @@
 		sudo apt install make
 
 		cd ~
-		rm -fr C2/
-		git clone https://github.com/pedroAkiraDanno/C2
-		cd C2/ ; git checkout develop ; cd ..
-		cd C2/src/ExternalMergeSort/
+		rm -fr C3/
+		git clone https://github.com/pedroAkiraDanno/C3
+		cd C3/ ; git checkout develop ; cd ..
+		cd C3/src/ExternalMergeSort/
 
 
    		 make
