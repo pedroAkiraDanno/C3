@@ -104,14 +104,13 @@ Will use MytreeRecursively.c like find . command in linux C
 
     sudo su -
     sudo apt-get install gcc -y
+    sudo apt-get install build-essential
+
 
     cd ~
     rm -fr C2/
     git clone https://github.com/pedroAkiraDanno/C2
-
-    //  cd ~   ;   	cd C2 	; 	git checkout feature/tree2   ;      cd ~  ;     cd C2/src/tree2/treeFileSystem
-    //  cd ~   ;   	cd C2 	; 	git checkout develop   ;      cd ~  ;     cd C2/src/tree2/treeFileSystem
-
+    cd C2/ ; git checkout develop ; cd ..
     cd C2/src/tree2/treeFileSystem
 
 
@@ -146,17 +145,16 @@ Will use tree2.c like tree command in linux C
 ## STEPS by STEPS on Linux Environment (completed)
 
     sudo su -
-    sudo apt-get update && sudo apt-get upgrade -y
     sudo apt-get install gcc -y
+    sudo apt-get install build-essential
+
 
     cd ~
     rm -fr C2/
     git clone https://github.com/pedroAkiraDanno/C2
-
-    //  cd ~   ;   	cd C2 	; 	git checkout feature/tree2   ;      cd ~  ;     cd C2/src/tree2/treeFileSystem
-    //  cd ~   ;   	cd C2 	; 	git checkout develop   ;      cd ~  ;     cd C2/src/tree2/treeFileSystem
-
+    cd C2/ ; git checkout develop ; cd ..
     cd C2/src/tree2/treeFileSystem
+
 
 
     gcc -Wall -O2 MytreeRecursively2.c -o MytreeRecursively2
