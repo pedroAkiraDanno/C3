@@ -55,14 +55,13 @@ Will use tree2.c like tree command in linux C
 
     sudo su -
     sudo apt-get install gcc -y
+    sudo apt-get install build-essential
+
 
     cd ~
     rm -fr C2/
     git clone https://github.com/pedroAkiraDanno/C2
-
-    //  cd ~   ;   	cd C2 	; 	git checkout feature/tree2   ;      cd ~  ;     cd C2/src/tree2/treeFileSystem
-    //  cd ~   ;   	cd C2 	; 	git checkout develop   ;      cd ~  ;     cd C2/src/tree2/treeFileSystem
-
+    cd C2/ ; git checkout develop ; cd ..
     cd C2/src/tree2/treeFileSystem
 
 
