@@ -80,14 +80,14 @@ This program just a simple example of B-Tree
     rm -fr C2/
     git clone https://github.com/pedroAkiraDanno/C2
     cd C2/ ; git checkout develop ; cd ..
-    cd C2/src/tree/
+    cd C2/src/B-Tree/
 
 
-    gcc -Wall -O2 B-tree4.c -o ranstr4
+    gcc -Wall -O2 B-tree4.c -o B-Tree
     #OR
     gcc B-tree4.c -o B-tree4
 
-    ./ranstr4
+    ./B-Tree
 
      
         
