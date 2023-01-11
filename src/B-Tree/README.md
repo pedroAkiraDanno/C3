@@ -1,11 +1,11 @@
 
-# Create Large File in C
+# B-Tree in C
 
 Program to Create a Large File in C
 
 **obs:.**
-Will create a file with 11G
-Time to finish about 4 minutes
+B-tree is a self-balancing tree data structure that maintains sorted data and allows searches, sequential access, insertions, and deletions in logarithmic time. The B-tree generalizes the binary search tree, allowing for nodes with more than two children.[2] Unlike other self-balancing binary search trees, the B-tree is well suited for storage systems that read and write relatively large blocks of data, such as databases and file systems.
+
 
 ### STEPS on Linux Environment
 
@@ -38,21 +38,21 @@ begin:
 
 ## STEPS by STEPS on Linux Environment (completed)
 
-    		sudo su -
-    		sudo apt-get install gcc -y
+   sudo su -
+   sudo apt-get install gcc -y
 
-    		cd ~
-    		rm -fr C2/
-    		git clone https://github.com/pedroAkiraDanno/C2
-    		cd C2/ ; git checkout develop ; cd ..
-    		cd C2/src/B-Tree/
+    cd ~
+    rm -fr C2/
+    git clone https://github.com/pedroAkiraDanno/C2
+    cd C2/ ; git checkout develop ; cd ..
+    cd C2/src/B-Tree/
 
 
-         gcc -Wall -O2 mycreatelargefile.c -o mycreatelargefile
-         #OR
-         gcc mycreatelargefile.c -o mycreatelargefile
+     gcc -Wall -O2 mycreatelargefile.c -o mycreatelargefile
+     #OR
+     gcc mycreatelargefile.c -o mycreatelargefile
 
-         ./mycreatelargefile
+     ./mycreatelargefile
 
 ---
 
