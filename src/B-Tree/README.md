@@ -64,14 +64,12 @@ begin:
 
 
 
-# ranstr4.c
+# B-tree4.c
 
-Program to create a random with 10000 words and each word has 10 caracteres
+Program to create a B-Tree 
 
 **obs:.**
-This program just a simple example of random - it not the complex random program
-
-NEED USE ranstr4.h include
+This program just a simple example of B-Tree 
 
 ## STEPS by STEPS on Linux Environment (completed)
 
@@ -85,9 +83,9 @@ NEED USE ranstr4.h include
     cd C2/src/tree/
 
 
-    gcc -Wall -O2 ranstr4.c -o ranstr4
+    gcc -Wall -O2 B-tree4.c -o ranstr4
     #OR
-    gcc ranstr4.c -o ranstr4
+    gcc B-tree4.c -o B-tree4
 
     ./ranstr4
 
