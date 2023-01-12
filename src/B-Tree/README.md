@@ -173,7 +173,7 @@ This program just a simple example of B-Tree
     cd C2/src/B-Tree/
 
 
-    gcc -Wall -O2 B-Tree3-TEST.c -o b-tree
+    gcc -Wall -O2 B-Tree3-TEST.c -o  B-Tree3-TEST
     #OR
     gcc B-Tree3-TEST.c -o B-Tree3-TEST
 
