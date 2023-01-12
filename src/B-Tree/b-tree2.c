@@ -5,7 +5,8 @@
 /***************************
  * binarytree.h
  ***************************/
- 
+
+/*
 typedef char DATA;
  
 struct node
@@ -24,6 +25,9 @@ BTREE create_tree(DATA a[], int i, int size);
 void preorder (BTREE root);
 void inorder (BTREE root);
 void postorder (BTREE root);
+*/
+
+
  
 /**********************
  * binarytree.c:
