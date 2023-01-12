@@ -154,6 +154,37 @@ This program just a simple example of B-Tree
 ---        
 
 
+# B-Tree3-TEST.c
+
+Program to create a B-Tree 
+
+**obs:.**
+This program just a simple example of B-Tree 
+
+## STEPS by STEPS on Linux Environment (completed)
+
+    sudo su -
+    sudo apt-get install gcc -y
+
+    cd ~
+    rm -fr C2/
+    git clone https://github.com/pedroAkiraDanno/C2
+    cd C2/ ; git checkout develop ; cd ..
+    cd C2/src/B-Tree/
+
+
+    gcc -Wall -O2 B-Tree3-TEST.c -o b-tree
+    #OR
+    gcc B-Tree3-TEST.c -o B-Tree3-TEST
+
+    ./B-Tree3-TEST
+
+     
+        
+---        
+
+
+
 
 
 
