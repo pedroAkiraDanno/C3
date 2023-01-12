@@ -143,7 +143,7 @@ This program just a simple example of B-Tree
     cd C2/src/B-Tree/
 
 
-    gcc -Wall -O2 b-tree2.c -o b-tree2
+    gcc -o b-tree2 b-tree2.c binarytree.h
     #OR
     gcc b-tree2.c -o b-tree
 
